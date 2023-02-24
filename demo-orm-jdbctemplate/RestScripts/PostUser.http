@@ -1,0 +1,12 @@
+@url = http://localhost:8080
+
+POST {{url}}/demo/user
+Content-Type: application/json
+
+{
+  "name":"Wagner",
+  "password":"6c6bf02c8d5d3d128f34b1700cb1e32c",
+  "salt":"fcbdd0e8a9404a5585ea4e01d0e4d7a0",
+  "email":"wagner@example.com",
+  "phoneNumber":"12345678"
+}
