@@ -5,3 +5,10 @@ server:
 spring:
   profiles:
     active: prod
+database:
+  driverName: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/chapter3
+  username: root
+  password: 123456
+application:
+  name: @artifactId@
